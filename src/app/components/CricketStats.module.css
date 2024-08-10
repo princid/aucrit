@@ -1,0 +1,43 @@
+/* CricketStats.module.css */
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+    gap: 16px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .card {
+    flex: 1 1 300px; /* Flex-grow, flex-shrink, and flex-basis */
+    max-width: 400px; /* Maximum width of the card */
+    background: #575757;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .rank {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .player {
+    font-size: 1.1em;
+    margin: 8px 0;
+  }
+  
+  .details {
+    font-size: 0.9em;
+    margin: 4px 0;
+    color: #ffffff;
+  }
+  
